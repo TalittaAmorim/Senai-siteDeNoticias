@@ -3,15 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    flex: 1 1 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
 header{
     display: flex;
+    flex: 1 1 200px;
     justify-content: space-between;
     align-items: center;
     background-color: #0c0041;
     color: #ffff;
     padding: 25px;
 }
+
 nav ul{
     list-style: none;
     display: flex;
@@ -29,33 +34,50 @@ li:hover{
 main{
     display: flex;
     flex-direction: column;
-    flex: 1 1 100vw;
+    flex: 20 1 500px;
     flex-wrap: wrap;
+    /* height: calc(100vw- 224px); */
 }
 .artigos{
     display: flex;
+    flex: 1 1 200px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 20px;
-    gap: 10px;
+    gap: 20px;
 }
 h1{
     text-align: center;
     border: 1px solid ;
 }
 .nebulosa{
+    color: #fff;
     padding: 8rem;
-    background: url("tech/imgs/nebulosa.jpg");
+    background: url('https://misistemasolar.com/wp-content/uploads/2017/09/NGC2174_lrg.jpg') ;
 }
 .nebulosa img{
     width: 300px;
     height: 300px;
 }
 article{
+    padding: 10px;
+    background-color: #25165a;
+    color: #fff;
+    box-shadow: 7px 3px 5px #58428c;
     width: 300px;
     height: auto;
-    border: 1px solid rgb(140, 79, 168);
+}
+
+
+article div{
+    padding: 10px;
+    background-color: #fff;
+}
+aside{
+    display: flex;
+    flex: 1 1 200px;
+   
 }
 
 aside img{
