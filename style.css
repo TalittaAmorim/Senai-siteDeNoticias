@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0c0041;
+    color: #ffff;
+    padding: 25px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-self: space-between;
+    gap: 10px;
+    padding: 25px;
+    margin: 10px;
+}
+
+li:hover{
+    background-color: #58428c;
+    padding: 15px;
+    border-radius: 8px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100vw;
+    flex-wrap: wrap;
+}
+.artigos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+}
+h1{
+    text-align: center;
+    border: 1px solid ;
+}
+.nebulosa{
+    padding: 8rem;
+    background: url("tech/imgs/nebulosa.jpg");
+}
+.nebulosa img{
+    width: 300px;
+    height: 300px;
+}
+article{
+    width: 300px;
+    height: auto;
+    border: 1px solid rgb(140, 79, 168);
+}
+
+aside img{
+    width: 400px;
+    height: 300px;
+}
+
+footer{
+    background-color: #0c0041;
+    padding: 4.2em;
+}
